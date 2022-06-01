@@ -36,10 +36,10 @@ public class RankingManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //InsertarPuntos("Maria",5);
+        //InsertarPuntos();
         //BorrarPuntos(3);
-        //ObtenerRanking();
-        BorrarPuntosExtra();
+        ObtenerRanking();
+        //BorrarPuntosExtra();
         MostrarRanking();
     }
 

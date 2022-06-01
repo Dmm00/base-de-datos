@@ -7,13 +7,15 @@ using UnityEngine.UI;
 public class RankingScript : MonoBehaviour
 {
     //Variables para acceder a los objetos Text
-    public Text Posicion, Nombre, Puntos;
+    public Text Nombre, Puntos,Fecha;
 
     //Método para poner los puntos en la UI
-    public void PonerPuntos(string pos, string nombre, string puntos)
+    public void PonerPuntos(string nombre, string puntos, string fecha)
     {
-        Posicion.text = pos;
+        //Posicion.text = pos;
         Nombre.text = nombre;
         Puntos.text = puntos;
+        Fecha.text = fecha;
+        
     }
 }
